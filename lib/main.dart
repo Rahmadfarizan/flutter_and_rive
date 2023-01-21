@@ -6,6 +6,7 @@ import 'package:flutter_and_rive/components/liquid_download.dart';
 import 'package:flutter_and_rive/components/little_machine.dart';
 import 'package:flutter_and_rive/components/play_one_shot_animation.dart';
 import 'package:flutter_and_rive/components/play_pause_animation.dart';
+import 'package:flutter_and_rive/components/play_pause_animation_beastoid.dart';
 import 'package:flutter_and_rive/components/simple_animation.dart';
 import 'package:flutter_and_rive/components/simple_machine_listener.dart';
 import 'package:flutter_and_rive/components/simple_network_animation.dart';
@@ -43,6 +44,7 @@ class _RiveExampleAppState extends State<RiveExampleApp> {
     const _Page('Play One-Shot Animation', PlayOneShotAnimation()),
     const _Page('Button State Machine', ExampleStateMachine()),
     const _Page('Skills Machine', StateMachineSkills()),
+    const _Page('State Beastoid', StateBeastoid()),
     const _Page('Little Machine', LittleMachine()),
     const _Page('Liquid Download', LiquidDownload()),
     const _Page('Custom Controller - Speed', SpeedyAnimation()),
